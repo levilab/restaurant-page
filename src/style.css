@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    gap: 1.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header {
+    position: fixed;
+    top: 20px;
+    width: 100%;
+}
+
+h1 {
+    top: 1rem;
+    left: 20rem;
+    font-size: 48px;
+    color: #3b7a06;  
+}
+
+button {
+    background-color: transparent;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 125px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: beige;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    gap: 1.5rem;
+}
+
+
+#homepage {
+    max-width: 60%;      /* scales down if too wide */
+    height: auto;         /* keeps aspect ratio */
+    overflow: hidden; 
+}
+
+#product {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+#product img{
+    width: 175px;
+    height: 175px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
